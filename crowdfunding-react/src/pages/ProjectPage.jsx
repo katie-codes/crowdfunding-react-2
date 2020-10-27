@@ -23,9 +23,7 @@ function ProjectPage() {
         });
     }, [id]);
 
-console.log(projectData)
-
-
+    console.log(Object.values(projectData)[0].id)
 
 return (
     <div>
