@@ -10,7 +10,7 @@ function HomePage() {
     const [projectList, setProjectList] = useState([]);
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_API_URL}projects/`, {
+        fetch(`${process.env.REACT_APP_API_URL}/projects/`, {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json"
