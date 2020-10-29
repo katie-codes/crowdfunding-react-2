@@ -1,7 +1,3 @@
-Projects page
-
-
-
 
 
 import React, { useState, useEffect } from "react";
@@ -28,6 +24,9 @@ function ProjectPage() {
         setProjectData(data);
       });
   }, [id]);
+
+
+  console.log(Object.values(projectData)[0].id)
 
   const formattedProjectRes = Object.values(projectData)[0]
   const formattedProjectSum = Object.values(projectData)[1]
