@@ -24,7 +24,7 @@ function Categories() {
         // </div>
 
         <div class="icons-container">
-            <h1>Choose a category</h1>
+            {/* <h1>Choose a category</h1> */}
             <br></br>
 
             {/* <link to={`/projects/wind`}>
